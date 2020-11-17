@@ -1,9 +1,3 @@
-x=[]
-x.append(18)
-x.append("Huế")
-y = [12, 45, -1, -0.56, "abc"]
-x=x+y
-print(x)
-print(x[0],x[-1])
-print(x[:5])
-print(x[2:])
+x=[1,2,3,4,5,6,7,8,9,10,11,12,13]
+print(len(x))
+print(x[::(len(x)-1)])
