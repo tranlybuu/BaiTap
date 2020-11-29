@@ -1,6 +1,6 @@
 import string,random
 import random
-n=random.randint(50,1001)
+n=random.randint(50,101)
 print("Số phần tử đã được random là số:",n)
 array=[]
 for i in range(n):
