@@ -38,13 +38,21 @@ print(data)"""
 import matplotlib.pyplot as plt
 ex=[0,1,2,6,11,8,15]
 week=[1,2,3,4,5,6,7]
+deg=[40,61,26,73,25,37,48,96]
+mon=[2,5,6,2,7,8,3,2]
+value1 = [82,76,24,40,67,62,75,78,71,32,98,89,78,67,72,82,87,66,56,52]
+value2=[62,5,91,25,36,32,96,95,3,90,95,32,27,55,100,15,71,11,37,21]
+value3=[23,89,12,78,72,89,25,69,68,86,19,49,15,16,16,75,65,31,25,52]
+value4=[59,73,70,16,81,61,88,98,10,87,29,72,16,23,72,88,78,99,75,30]
 
-"""
 #Vẽ đồ thị hình bar
 plt.bar(week,ex)
-"""
 
 #Vẽ đồ thị hình line
-plt.plot(week,ex,marker='.',markersize=10)
+plt.plot(mon,deg,marker='.',markersize=10)
+
+#Vẽ đồ thị hình box
+box_plot_data=[value1,value2,value3,value4]
+plt.boxplot(box_plot_data)
 
 plt.show()
