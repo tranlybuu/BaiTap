@@ -46,7 +46,7 @@ for i in range(0, size-15):
         print(Fore.RED + ("^"*(i+1)).center(size, " "))
     
 for i in range(3):
-    print(Fore.GREEN + "||".center(size, " "))
+    print(Fore.WHITE + "||".center(size, " "))
     wait()
 print("====".center(size, " "))
 
