@@ -1,3 +1,9 @@
+# Cây thông noel
+# Trần
+# Lý 
+# Bửu
+# Just_For_Fun
+
 from colorama import Fore, Back, Style, init
 import time
 import os
@@ -34,7 +40,7 @@ for i in range(0, size):
         print(Fore.YELLOW + "★".center(size+4, " "))
         wait()
     elif i % 2 == 0 and i > 0:
-        print(Fore.GREEN + ("$"*i).center(size+4, " "))
+        print(Fore.GREEN + ("*"*i).center(size+4, " "))
         wait()
     else:
         print(Fore.RED + ("^"*(i+1)).center(size+4, " "))
