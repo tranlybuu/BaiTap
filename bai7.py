@@ -12,8 +12,8 @@ client=smtplib.SMTP("smtp.gmail.com",587)
 client.starttls()
 client.login(email, password)
 
-for i in range(1,time+1):
-    content=mess + " - Lan thu " + str(i)
+for i in range(time):
+    content=mess + " - Lan thu " + str(i+1)
     client.sendmail(email,address,content)
     print("/\nTin nhắn đã được gửi đến {} lần thứ {}\n/\n".format(email,i))
 
